@@ -1,0 +1,129 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Custom Gesture Dictionary - SignSoul Translator
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     SignSoul Translator
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Features
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="text-center my-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Custom Gesture Dictionary
+    </h2>
+    <p class="text-lg mb-6">
+     Personalize your communication experience by adding and saving unique or regional gestures.
+    </p>
+    <img alt="Illustration of a user adding custom gestures to their dictionary in the SignSoul Translator app" class="mx-auto rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/g25BaceilYyTF6XBkpNqrrqesoWfVGufIjjg4McwLoXBCniQB.jpg" width="600"/>
+   </section>
+   <section class="my-8">
+    <h3 class="text-2xl font-bold mb-4">
+     Add a New Gesture
+    </h3>
+    <form class="bg-white p-6 rounded-lg shadow-lg">
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="gesture-name">
+       Gesture Name
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="gesture-name" placeholder="Enter gesture name" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="gesture-description">
+       Description
+      </label>
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="gesture-description" placeholder="Enter gesture description" rows="4">
+      </textarea>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="gesture-image">
+       Upload Image
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="gesture-image" type="file"/>
+     </div>
+     <div class="flex items-center justify-between">
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+       Add Gesture
+      </button>
+     </div>
+    </form>
+   </section>
+   <section class="my-8">
+    <h3 class="text-2xl font-bold mb-4">
+     Your Custom Gestures
+    </h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Image of a custom gesture for 'Hello'" class="w-full h-40 object-cover mb-4 rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/fYteLGBmSGtytUnLa8a8BMBR2GFB1H4jIwAJfHa2OHcEhTRoA.jpg" width="400"/>
+      <h4 class="text-xl font-bold mb-2">
+       Hello
+      </h4>
+      <p>
+       A friendly wave to greet someone.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Image of a custom gesture for 'Thank You'" class="w-full h-40 object-cover mb-4 rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/EovzfxCfuNjO7UDwZcczoTAuQO2O32UzeEl12ZSdCIg8gTRoA.jpg" width="400"/>
+      <h4 class="text-xl font-bold mb-2">
+       Thank You
+      </h4>
+      <p>
+       A gesture to express gratitude.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <img alt="Image of a custom gesture for 'Goodbye'" class="w-full h-40 object-cover mb-4 rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/9nsQJNUxfoXqX6eHgwAD3NfU91cY4N0HlAot6ROzRQwfBniQB.jpg" width="400"/>
+      <h4 class="text-xl font-bold mb-2">
+       Goodbye
+      </h4>
+      <p>
+       A wave to bid farewell.
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 SignSoul Translator. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
